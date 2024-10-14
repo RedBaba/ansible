@@ -1,0 +1,6 @@
+---
+- name: Testing
+  hosts: all
+  task: 
+- name: 
+
