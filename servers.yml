@@ -1,0 +1,7 @@
+---
+- name: 
+  hosts:
+    task:
+      - name:
+        ansible.win_copy:
+
