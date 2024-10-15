@@ -1,0 +1,9 @@
+---
+- name: This is master testing playbook
+  hosts: all
+  tasks:
+    - name: Query service
+      ansible.windows_service: bits
+      restart: Auto
+
+
